@@ -1,3 +1,304 @@
-h1{
-    color: blue;
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#section1 {
+    padding: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#heading {
+    color: #0067DB;
+    float: left;
+    position: absolute;
+
+}
+
+#trademark {
+    font-size: 5px;
+}
+
+#navigation {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 60%;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+#download {
+    color: black;
+    font-weight: 550;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #DFE0E4;
+    border-radius: 15px;
+}
+
+#section2 {
+    background-image: url(background-image.jpeg);
+    background-size: 200%;
+    padding: 130px 35px;
+
+}
+
+#everything {
+    color: #FFFFFF;
+    font-size: 30px;
+
+}
+
+#buttonsContainer {
+    display: flex;
+    gap: 20px;
+    background: #F7F7F8;
+    border-radius: 10px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.bookButtons {
+    color: #191E3B;
+    border: 1px solid #818494;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    font-size: 15px;
+    display: flex;
+    height: 5%;
+    justify-items: left;
+}
+
+.buttonIcons {
+    height: 25px;
+    width: 25px;
+}
+
+.button-title {
+    font-size: 9px;
+    font-weight: 50;
+    text-align: left;
+}
+
+#seek {
+    background: #191E3B;
+    color: #FFFFFF;
+    width: 70px;
+    height: 50px;
+    border: 1px solid #191E3B;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#seek:hover {
+    background: #40445C;
+    border: 1px solid #40445C;
+}
+
+#register {
+    background: #191E3B;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    margin: 2%;
+}
+
+#registerIcon {
+    background: #AED1F3;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    padding: 10px;
+
+}
+
+#sign-in {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+#register-link {
+    text-decoration: none;
+    position: absolute;
+    right: 5%;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 12px;
+    background: #191E3B;
+    border: 1px solid #191E3B;
+
+}
+
+#register-link:hover {
+    background: #40445C;
+    border: 1px solid #40445C;
+}
+#section3{
+    margin-left: 20px;
+}
+#destination{
+    font-size: 28px;
+color:#191E3B;
+}
+
+#photo-container{
+    display: grid;
+    gap: 30px;
+    grid-auto-flow:column;
+    overflow:auto;
+}
+.dest-card{
+    width: 500px;
+    height: 270px;
+    border:1px solid #DFE0E4;
+    border-radius: 10px 10px 10px 10px;
+}
+.dest-photo{
+width: 500px;
+height: 220px;
+border-radius: 10px 10px 0px 0px;
+}
+.dest-card-title{
+    margin-left: 20px;
+    color: #191E3B;
+}
+#section4{
+    margin-left: 20px;
+}
+#accommodation{
+    font-size: 28px;
+    color: #191E3B;
+}
+#acc-container{
+    display: grid;
+    gap: 30px;
+    grid-auto-flow:column;
+    overflow:auto;
+}
+.acc-title{
+    padding-left: 10px;
+    padding-top: 230px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.acc-card{
+    width:200px ;
+    border-radius: 10px;
+}
+#acc-card1{
+    background-image: url(holiday-home.jpeg);
+    background-size: 425px;
+}
+#acc-card2{
+    background-image: url(holiday-apartment.jpeg);
+    background-size: 425px;
+}
+#acc-card3{
+    background-image: url(holiday-cottage.jpeg);
+    background-size: 425px;
+}
+#acc-card4{
+    background-image: url(country-house.jpeg);
+    background-size: 425px;
+}
+#acc-card5{
+    background-image: url(villa.jpeg);
+    background-size: 505px;
+}
+#acc-card6{
+    background-image: url(chalet.jpeg);
+    background-size: 425px;
+    
+}
+#section5{
+    margin-left: 20px;
+}
+#trips{
+    font-size: 28px;
+    color: #191E3B;
+}
+.offers{
+    color: #191E3B;
+    font-size: 14px;
+    font-weight: 400;
+margin-top: -20px;
+}
+#period{
+    font-weight: bolder;
+}
+#trip-container{
+    display: grid;
+    gap: 30px;
+    grid-auto-flow:column;
+    overflow:auto; 
+}
+.trip-card{
+    height: 450px;
+    width: 270px;
+}
+.trip-img{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+}
+.review-container{
+    display: inline-flex;
+    gap: 5px;
+    height:25px;
+    margin-top: 10px;
+}
+.green{
+width:fit-content;
+
+padding: 6px;
+background: #227950;
+color: #FFFFFF;
+font-size: 12px;
+font-weight: bolder;
+border-radius: 3px;
+justify-items: center;
+}
+.review{
+margin-top: 6px;
+color: #191E3B;
+font-size: 12px;
+}
+.Unusual{
+    color: #191E3B;
+    font-weight: bolder;
+font-size: 14px;
+}
+.trip-title{
+    color: #191E3B;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.trip-address{
+    color: #191E3B;
+    font-size: 16px;
+    margin-top: -18px;
+}
+.trip-price{
+    color: #191E3B;
+    font-size: 20px;
+    font-weight: bolder;
+margin-top: -10px;
+}
+.trip-price-description{
+    margin-top: -19px;
+color: #191E3B;
+font-size: 12px;
 }

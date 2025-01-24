@@ -1,12 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FeWo-direkt | Book your holiday apartment: apartments, holiday homes</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <h1>FeWo-direkt</h1>
+    <div id="section1">
+        <img src="logo.svg" alt="logo">
+        <nav class='navLinks' id="navigation">
+            <button id="download">Download the app</button>
+            <a class='navLinks' href="">travel planner</a>
+            <a class='navLinks' href="">register accommodation</a>
+            <a class='navLinks' href="">Help</a>
+            <a class='navLinks' href="">My Travels</a>
+            <a class='navLinks' href="">Register</a>
+        </nav>
+    </div>
+    <section id="section2">
+        <div id="container2">
+            <h1 id="everything">Everything is fine, you book with FeWo-direkt</h1>
+            <div id="buttonsContainer">
+                <button class="bookButtons">
+                    <img class='buttonIcons' src="location.svg" alt="location icon">
+                    Wo soll's hingehen?
+                </button>
+                <button class="bookButtons">
+                    <img class='buttonIcons' src="date.svg" alt="date icon">
+                    <p><span class="button-title">Data</span><br>
+                        February 1st - February 15th</p>
+                </button>
+                <button class="bookButtons">
+                    <img class='buttonIcons' src="guest.svg" alt="guest icon">
+                    <p><span class="button-title">guests</span><br>
+                        2 travellers</p>
+                </button>
+                <button class="bookButtons" id="seek">seek</button>
+            </div>
+        </div>
+    </section>
+    <div id="register">
+        <div id='registerIcon'>
+            <img src="register.svg" alt="icon" width="20px" height="20px">
+        </div>
+        <p id="sign-in">Sign in to message the host and get more details about a listing.</p>
+        <button id="register-link" href="">register</button>
+    </div>
+    <section id="section3">
+        <h2 id="destination">Popular travel destinations</h2>
+        <div id="photo-container">
+            <div class="dest-card">
+                <img class='dest-photo' src="kigali.jpg" alt="kigali">
+                <p class="dest-card-title">Kigali</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="paris.webp" alt="paris">
+                <p class="dest-card-title">Paris</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="nairobi.jpg" alt="nairobi">
+                <p class="dest-card-title">Nairobi</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="dubai.jpg" alt="dubai">
+                <p class="dest-card-title">Dubai</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="gisenyi.jpg" alt="gisenyi">
+                <p class="dest-card-title">Gisenyi</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="kampala.jpg" alt="kampala">
+                <p class="dest-card-title">Kampala</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="brussels.jpg" alt="brussels">
+                <p class="dest-card-title">Brussels</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="dar-es-salaam.jpg" alt="dar es salaam">
+                <p class="dest-card-title">Dar-es-salaam</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="yaounde.jpg" alt="yaounde">
+                <p class="dest-card-title">Yaounde</p>
+            </div>
+            <div class="dest-card">
+                <img class='dest-photo' src="douala.jpg" alt="douala">
+                <p class="dest-card-title">Douala</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 id="accommodation">Find accommodations to suit your taste</h2>
+        <div id="acc-container">
+            <div class="acc-card" id="acc-card1">
+                <p class="acc-title">holiday home</p>
+            </div>
+            <div class="acc-card" id="acc-card2">
+                <p class="acc-title">holiday apartment</p>
+            </div>
+            <div class="acc-card" id="acc-card3">
+                <p class="acc-title">holiday cottage</p>
+            </div>
+            <div class="acc-card" id="acc-card4">
+                <p class="acc-title">country house</p>
+            </div>
+            <div class="acc-card" id="acc-card5">
+                <p class="acc-title">villa</p>
+            </div>
+            <div class="acc-card" id="acc-card6">
+                <p class="acc-title">chalet</p>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <h2 id="trips">Browse weekend trips</h2>
+        <h6 class="offers">Offers for the period: <span id="period">28 February - 2 March</span></h6>
+        <div id="trip-container">
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="exclusive-bungalow.jpg" alt="exclusive-bungalow">
+                <div class='review-container'>
+                    <div class="green">10</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (167 reviews)</p>
+                </div>
+                <h4 class="trip-title">Exclusive bungalow in an idyllic location at the foot of Andechs...</h4>
+                <p class="trip-address">Andechs, Bavaria</p>
+                <p class="trip-price">278 &#8364;</p>
+                <p class="trip-price-description">139 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="central-holiday.jpg" alt="central-holiday">
+                <div class='review-container'>
+                    <div class="green">9.2</div>
+                    <p class="review"><span class="Unusual">Wonderful</span> (105 reviews)</p>
+                </div>
+                <h4 class="trip-title">Central holiday apartment on the lake</h4>
+                <p class="trip-address">Berlin, Spandau</p>
+                <p class="trip-price">263 &#8364;</p>
+                <p class="trip-price-description">132 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="central-attic.jpg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.8</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (257 reviews)</p>
+                </div>
+                <h4 class="trip-title">Central attic apartment in the immediate vicinity of the main...</h4>
+                <p class="trip-address">Trier, Rhineland-Palatinate</p>
+                <p class="trip-price">262 &#8364;</p>
+                <p class="trip-price-description">131 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="beautiful-holiday.jpg" alt="beautiful-holiday">
+                <div class='review-container'>
+                    <div class="green">9.6</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (122 reviews)</p>
+                </div>
+                <h4 class="trip-title">Beautiful holiday home Pets allowed Hiking Excursions...</h4>
+                <p class="trip-address">Mechernich, NRW</p>
+                <p class="trip-price">196 &#8364;</p>
+                <p class="trip-price-description">98 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="last-minute.jpg" alt="last minute">
+                <div class='review-container'>
+                    <div class="green">10</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (115 reviews)</p>
+                </div>
+                <h4 class="trip-title">Last minute - Winter in Potsdam / Listed "Remise im Park Sanssouci"</h4>
+                <p class="trip-address">Potsdam, BB</p>
+                <p class="trip-price">369 &#8364;</p>
+                <p class="trip-price-description">184 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-img" src="detached-house.jpeg" alt="detached house">
+                <div class='review-container'>
+                    <div class="green">9.4</div>
+                    <p class="review"><span class="Unusual">Unusual</span> (155 reviews)</p>
+                </div>
+                <h4 class="trip-title">Detached house with large garden, suitable for families with children</h4>
+                <p class="trip-address">LenzKirch, Baden-Wuerttemberg</p>
+                <p class="trip-price">415 &#8364;</p>
+                <p class="trip-price-description">207 &#8364; per night <br> incl. taxes & fees</p>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
